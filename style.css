@@ -1,0 +1,56 @@
+.bg {
+	  background-color: #171925;
+	  position: absolute;
+	  left: 0px;
+	  top: 0px;
+	  width: 1200px;
+	  height: 1500px;
+	  z-index: 1;
+}
+
+.logo{
+	position: absolute;
+	text-align: center
+}
+
+#circle {
+	  border-width: 2px;
+	  border-color: rgb(255, 255, 255);
+	  border-style: solid;
+	  border-style: solid;
+	  border-width: 4px;
+	  border-color: rgb(255, 255, 255);
+	  border-radius: 50%;
+	  box-shadow: 0px 4px 4.25px 0.75px rgba(0, 0, 0, 0.8);
+	  position: absolute;
+	  top: 39px;
+	  left: 700px;
+	  width: 463px;
+	  height: 463px;
+	  z-index: 2;
+    }
+
+#logoWhite {
+  background-image: url("logoWhite.png");
+  position: absolute;
+  left: 95px;
+  top: 44px;
+  width: 238px;
+  height: 268px;
+  z-index: 2;
+}
+
+.name {
+
+  font-size: 90px;
+  font-family: "Constantia";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 4px 4.25px rgba(0, 0, 0, 0.8);
+  position: absolute;
+  left: 499px;
+  top: 374.5px;
+  z-index: 2;
+}
+
