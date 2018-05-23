@@ -1,23 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset = "utf-8">
-	<title>Волчонок "Click"</title>
-	<link rel = "stylesheet" href = "style.css">
-</head>
-<body class = "bg">
-	
-	<div class = "logo">
-		<div id = "circle">
-			<img id = "logoWhite" src = "img/logoWhite.png" alt ""/>
-			<p class="name">Click</p>
-		</div>
-	</div>
-	<div class = "line"></div>
-	<div class = "but1"></div>
-	<div class = "but2"></div>
-	<div class = "line"></div>
-	<footer class = "foot"></footer>
+	<head>
+		<meta charset = "utf-8">
+		<title>Волчонок "Click"</title>
+		<link rel = "stylesheet" href = "style.css">
 
-</body>
+	</head>
+	<body class = "bg">
+		
+		<div class = "logo">
+			<img src ="img/logo.png" alt = "Логотип"/>
+		</div>
+		
+		<div class = "box1">
+			<a href="#" onclick="go(cont_1);" >Играть</a>
+			<div id="cont_1">
+				<p>Введите имя</p>
+				<input type="text" id="name"/>
+				<button id="but">Начать</button>
+			</div>
+		</div>
+		
+		<div class = "box2">
+			<a href="#" onclick="go(cont_2);" >Правила</a>
+			<div id="cont_2">
+				<h3>Правила игры</h3>
+				<p>За 2 минуты вам нужно найти как больше предметов на картинке и <i>click-нуть</i> по ним</p>
+			</div>
+		</div>
+		<footer class = "foot"></footer>
+
+		<script src = "script.js"></script>
+	</body>
 </html>
